@@ -1,2 +1,4 @@
-# iconpal
+ICONPAL
+======================
+
 Experimental poster generator
