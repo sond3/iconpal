@@ -3,10 +3,26 @@ import processing.pdf.*;
 PImage img;
 Square[] squares =  new Square[999999];
 int pixelDistance = 10;
-String origen = "input/image.jpg";
-String output = "output/poster.pdf";
-String svgPath = "svg/03/";
-color backgroundColor = #FFFF00;
+
+/**
+  Path for the picture name
+*/
+String origen = "input/02.jpg";
+
+/**
+  Path for the resultant name
+*/
+String output = "output/iconpal.pdf";
+
+/**
+  Path for the iconset folder
+*/
+String svgPath = "svg/lines/";
+
+/**
+  Pdf background color
+*/
+color backgroundColor = #FFFFFF;
 
 /**
  setup
@@ -14,7 +30,11 @@ color backgroundColor = #FFFF00;
 void setup() {
 
   img = loadImage(origen);
-  size(1280, 1475);
+
+  /**
+    Image size
+  */
+  size(500, 500);
 
   image(img, 0, 0);
   filter(GRAY);
