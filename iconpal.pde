@@ -7,7 +7,7 @@ int pixelDistance = 10;
 /**
   Path for the picture name
 */
-String origen = "input/02.jpg";
+String origen = "input/your-image.jpg";
 
 /**
   Path for the resultant name
@@ -17,7 +17,7 @@ String output = "output/iconpal.pdf";
 /**
   Path for the iconset folder
 */
-String svgPath = "svg/lines/";
+String svgPath = "svg/circles/";
 
 /**
   Pdf background color
