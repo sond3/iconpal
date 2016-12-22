@@ -23,7 +23,7 @@ Converts pictures to icons
 ### Symbols
 
 
-![symbols](https://raw.githubusercontent.com/sond3/iconpal/e217b381d44ee72056277e60d1d1c7f6a786f976/symbols.jpg)
+![symbols](https://raw.githubusercontent.com/sond3/iconpal/1549d7ba29e63571e5db59382078ad1ecb241fd1/symbols.jpg)
 
 
 ### Circles
